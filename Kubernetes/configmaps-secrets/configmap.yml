@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+data:
+  MONGO_URI: mongodb://pateld:eW91ci1wYXNzd29yZA%3D%3D@localhost:27017/?authMechanism=SCRAM-SHA-1
+  NODE_ENV: production
+  PORT: "3000"
